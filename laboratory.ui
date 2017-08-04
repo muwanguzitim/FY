@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Laboratory</class>
+ <widget class="QDialog" name="Laboratory">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>776</width>
+    <height>574</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Laboratory</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>9</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(252, 249, 231)</string>
+   </property>
+   <property name="text">
+    <string>*</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>731</width>
+     <height>121</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>230</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Lab Results</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>230</y>
+     <width>91</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Blood Count</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>510</y>
+     <width>99</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Submit</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>200</y>
+     <width>781</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>260</y>
+     <width>101</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <widget class="QLabel" name="label_20">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>WBC</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_21">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>NEU%</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_22">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>LYM%</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_23">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>MON%</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_24">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>RBC</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_25">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>HGB</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_28">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>MCV</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_26">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>MCH</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_27">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>PLT</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>260</y>
+     <width>91</width>
+     <height>293</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_6">
+    <item>
+     <widget class="QLineEdit" name="txt_WBC"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="txt_NEU"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="txt_LYM"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="txt_MON"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="txt_RBC"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="txt_HGB"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="txt_MCV"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="txt_MCH"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="txt_PLT"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>310</y>
+     <width>47</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255)</string>
+   </property>
+   <property name="text">
+    <string>Result:</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="txt_result">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>340</y>
+     <width>321</width>
+     <height>131</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>260</y>
+     <width>231</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>Test ID</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="txt_tid"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_fill">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>231</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(245, 183, 183)</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>325</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255)</string>
+      </property>
+      <property name="text">
+       <string>PatientID</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="txt_pid"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Load</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
